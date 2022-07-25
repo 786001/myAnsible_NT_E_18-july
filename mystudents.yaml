@@ -1,0 +1,22 @@
+--- 
+- mystudents: 
+  - name: sam 
+    phone: 856475968 
+    address: 
+      doorno: 546 
+      streetno: 2 
+      pin : 500037 
+
+  - name: tom 
+    phone: 986528466 
+    address: 
+      doorno: 458
+      streetno: 1 
+      pin : 500089 
+
+  - name: john
+    phone: 568492836 
+    address: 
+     doorno: 588
+     streetno: 3
+     pin : 5000065 
