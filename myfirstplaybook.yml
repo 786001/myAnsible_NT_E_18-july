@@ -1,4 +1,3 @@
-# MYANSIBLE22
 --- 
 - hosts: all 
   become: yes 
