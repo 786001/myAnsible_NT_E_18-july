@@ -1,3 +1,4 @@
+[mywebservers]
 172.31.6.157 
 172.31.14.202
 
@@ -8,3 +9,8 @@
 [DBservers]
 172.31.6.154
 172.31.14.210
+
+
+[mywebservers:vars] 
+mywebserverpackubuntu= apache2
+mywebserverpackonredhat= httpd
