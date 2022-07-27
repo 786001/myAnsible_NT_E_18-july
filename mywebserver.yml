@@ -1,5 +1,5 @@
 --- 
-- hosts: all 
+- hosts: mywebserver 
   become: yes 
   tasks: 
 - name: install webserver on ubuntu ansible nodes 
@@ -24,4 +24,3 @@
      name: httpd 
      state: startedn
   when: ansible_os_family =="RedHat"
-  
